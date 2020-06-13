@@ -4,7 +4,7 @@
 #-------------------------------------------------------------------------------------------------------------
 
 # Update the VARIANT arg in docker-compose.yml to pick a Node version: 10, 12, 14
-ARG VARIANT=12
+ARG VARIANT=14
 FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:${VARIANT}
 
 # The node image includes a non-root user with sudo access. Use the 
